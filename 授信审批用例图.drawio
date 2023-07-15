@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-15T09:47:27.603Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="CAkkqNKHNfAsbXoum_jc" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-15T10:51:28.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="cVhCUIvsfksrxvNErPHH" version="21.6.2" type="github">
   <diagram name="第 1 页" id="PT6hGrXhausuQr09__Po">
     <mxGraphModel dx="1166" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,16 +73,25 @@
         <mxCell id="QNjPedwraJLYu9IQOruR-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="QNjPedwraJLYu9IQOruR-3" target="wrGV_mXLTRxhNDMkk3RX-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QNjPedwraJLYu9IQOruR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="QNjPedwraJLYu9IQOruR-3" edge="1">
+        <mxCell id="QNjPedwraJLYu9IQOruR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QNjPedwraJLYu9IQOruR-3" edge="1" target="QNjPedwraJLYu9IQOruR-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QNjPedwraJLYu9IQOruR-3" value="借款人" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="580" width="30" height="60" as="geometry" />
+          <mxGeometry x="735" y="586.25" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QNjPedwraJLYu9IQOruR-5" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;获取可用额度&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="586.25" width="120" height="47.5" as="geometry" />
+          <mxGeometry x="490" y="592.5" width="120" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JtodRxzJe7fUEbNoA1iC-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;上报此渠道授信&lt;br&gt;额度给行内共享层&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="592.5" width="180" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JtodRxzJe7fUEbNoA1iC-4" value="&amp;lt;include&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wrGV_mXLTRxhNDMkk3RX-19" target="JtodRxzJe7fUEbNoA1iC-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="730" as="sourcePoint" />
+            <mxPoint x="550" y="730" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
