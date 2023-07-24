@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T09:50:18.658Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="M2j6no4E2rRlPC6x6lDN" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-24T10:02:52.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="YeLwskXJ-7Mm6VeOGJGp" version="21.6.5" type="github">
   <diagram name="第 1 页" id="9d33gwWQQcH8hecTl52N">
     <mxGraphModel dx="1166" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,13 +17,13 @@
           <mxGeometry x="170" y="400" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XQy_HkMN9JwdEgIl_gGs-2" value="用户编号" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="90" y="310" width="100" height="40" as="geometry" />
+          <mxGeometry x="110" y="320" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XQy_HkMN9JwdEgIl_gGs-3" value="账户编号" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="40" y="400" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XQy_HkMN9JwdEgIl_gGs-5" value="账户开通时间" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="90" y="480" width="100" height="40" as="geometry" />
+          <mxGeometry x="110" y="470" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XQy_HkMN9JwdEgIl_gGs-9" value="申请" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="340" y="395" width="105" height="50" as="geometry" />
@@ -94,6 +94,9 @@
         <mxCell id="XQy_HkMN9JwdEgIl_gGs-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="XQy_HkMN9JwdEgIl_gGs-29" target="XQy_HkMN9JwdEgIl_gGs-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="XQy_HkMN9JwdEgIl_gGs-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.433;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="XQy_HkMN9JwdEgIl_gGs-29" target="XQy_HkMN9JwdEgIl_gGs-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XQy_HkMN9JwdEgIl_gGs-29" value="审批单" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="342.5" y="210" width="100" height="40" as="geometry" />
         </mxCell>
@@ -125,10 +128,10 @@
         <mxCell id="XQy_HkMN9JwdEgIl_gGs-37" value="审批单编号" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="500" y="210" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XQy_HkMN9JwdEgIl_gGs-40" value="申请单编号" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="342.5" y="130" width="100" height="40" as="geometry" />
+        <mxCell id="XQy_HkMN9JwdEgIl_gGs-40" value="审批结果" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XQy_HkMN9JwdEgIl_gGs-42" value="审批步骤详情" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="XQy_HkMN9JwdEgIl_gGs-42" value="审批阶段" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="170" y="210" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XQy_HkMN9JwdEgIl_gGs-44" value="关联" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -160,13 +163,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XQy_HkMN9JwdEgIl_gGs-49" value="额度编号" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
-          <mxGeometry x="210" y="585" width="100" height="40" as="geometry" />
+          <mxGeometry x="220" y="540" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XQy_HkMN9JwdEgIl_gGs-50" value="额度详情" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="500" y="585" width="100" height="40" as="geometry" />
+          <mxGeometry x="490" y="585" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XQy_HkMN9JwdEgIl_gGs-54" value="额度发放时间" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="352.5" y="660" width="100" height="40" as="geometry" />
+          <mxGeometry x="220" y="600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XQy_HkMN9JwdEgIl_gGs-56" value="申请单编号" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="414" y="150" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
