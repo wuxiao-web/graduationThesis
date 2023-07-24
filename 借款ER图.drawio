@@ -1,9 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T10:06:57.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" version="21.6.5" etag="Iyaeuj1XDWi7oZ4cbz8j" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-24T10:43:22.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="bGs24sAfnBa0-QYB1n27" version="21.6.5" type="github">
   <diagram name="第 1 页" id="vjXB-SfW_l7SWCADPFd4">
-    <mxGraphModel>
+    <mxGraphModel dx="1166" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PWWYntIkdXANuu-mSkj--8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="PWWYntIkdXANuu-mSkj--1" target="PWWYntIkdXANuu-mSkj--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="PWWYntIkdXANuu-mSkj--1" target="PWWYntIkdXANuu-mSkj--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--1" value="账户" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="124" y="455" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="PWWYntIkdXANuu-mSkj--2" target="PWWYntIkdXANuu-mSkj--23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="PWWYntIkdXANuu-mSkj--2" target="PWWYntIkdXANuu-mSkj--27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="694" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="PWWYntIkdXANuu-mSkj--2" target="PWWYntIkdXANuu-mSkj--28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="PWWYntIkdXANuu-mSkj--2" target="PWWYntIkdXANuu-mSkj--30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="PWWYntIkdXANuu-mSkj--2" target="PWWYntIkdXANuu-mSkj--33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--2" value="借据" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="514" y="455" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="PWWYntIkdXANuu-mSkj--3" target="PWWYntIkdXANuu-mSkj--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="PWWYntIkdXANuu-mSkj--3" target="PWWYntIkdXANuu-mSkj--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="PWWYntIkdXANuu-mSkj--3" target="PWWYntIkdXANuu-mSkj--14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="PWWYntIkdXANuu-mSkj--3" target="PWWYntIkdXANuu-mSkj--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="PWWYntIkdXANuu-mSkj--3" target="PWWYntIkdXANuu-mSkj--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--3" value="还款计划" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="328" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--5" value="账户编号" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="74" y="365" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--7" value="银行卡号" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="64" y="545" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--10" value="还款计划编号" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="174" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--12" value="分期数" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="294" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--13" value="当前期数" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="474" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--14" value="当期应还本金" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="414" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--19" value="当期利息" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="174" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--23" value="借据编号" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="574" y="365" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--27" value="放款日期" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="664" y="415" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--28" value="借据状态" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="664" y="490" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--30" value="放款金额" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="660" y="545" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PWWYntIkdXANuu-mSkj--33" value="账户编号" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="574" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
