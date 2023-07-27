@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T10:34:35.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="g1m3KP9pqTHUvbK5bRhg" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T13:12:12.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="ta4p2jGjWrEd92MN2Zcf" version="21.6.5" type="github">
   <diagram name="第 1 页" id="nujMItkQvAbVNNYGcNMh">
     <mxGraphModel dx="1166" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LWc6yBgg0FcKB93T4zAy-1" value="AvaliableAmtFacility" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="260" width="340" height="110" as="geometry" />
+          <mxGeometry x="20" y="260" width="350" height="110" as="geometry" />
         </mxCell>
         <mxCell id="LWc6yBgg0FcKB93T4zAy-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="LWc6yBgg0FcKB93T4zAy-1" vertex="1">
-          <mxGeometry y="26" width="340" height="14" as="geometry" />
+          <mxGeometry y="26" width="350" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="LWc6yBgg0FcKB93T4zAy-4" value="+ getSharedCredit(String ecifNo): SharedCredit&lt;br&gt;+ caclAvaliableAmt(String ecifNo): AvailableAmt&lt;br&gt;+ getLevelToCreditTable(): Map&amp;lt;Integer, BigDecimal&amp;gt;&lt;br&gt;+ reportAmtInfoToSharedSysTem(AvailableAmt amt): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LWc6yBgg0FcKB93T4zAy-1" vertex="1">
-          <mxGeometry y="40" width="340" height="70" as="geometry" />
+        <mxCell id="LWc6yBgg0FcKB93T4zAy-4" value="+ getSharedCredit(String ecifNo): SharedCredit&lt;br&gt;+ caclAvaliableAmt(String ecifNo, String acctNo): AvailableAmt&lt;br&gt;+ caclLevelToCreditLimitTable(): Map&amp;lt;Integer, BigDecimal&amp;gt;&lt;br&gt;+ reportAmtInfoToSharedSysTem(AvailableAmt amt): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LWc6yBgg0FcKB93T4zAy-1" vertex="1">
+          <mxGeometry y="40" width="350" height="70" as="geometry" />
         </mxCell>
         <mxCell id="LWc6yBgg0FcKB93T4zAy-5" value="SharedCredit" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="110" width="240" height="90" as="geometry" />
@@ -161,7 +161,7 @@
           <mxGeometry y="84" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="glQUe7IPwAwSsz3Q0e0L-5" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="355" y="308" width="30" height="30" as="geometry" />
+          <mxGeometry x="360" y="308" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="glQUe7IPwAwSsz3Q0e0L-6" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="405" y="298" width="30" height="30" as="geometry" />
