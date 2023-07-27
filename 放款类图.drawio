@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T09:37:53.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" version="21.6.5" etag="nRKhV1RKrwXOx6IErIdq" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T11:08:19.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="PFP9DKGXymHpuqicjipl" version="21.6.5" type="github">
   <diagram name="第 1 页" id="nKMNy7rmY0BYhBbHpXy7">
-    <mxGraphModel>
+    <mxGraphModel dx="1166" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-1" value="SignContractService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="436" y="260" width="324" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-1">
+          <mxGeometry y="26" width="324" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-3" value="+ signAuthRequest(): void&lt;br&gt;+ updateContract(): void&lt;br&gt;+ signLoanContract(String ecifNo, Contract contract): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-1">
+          <mxGeometry y="50" width="324" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-4" value="Contract" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-5" value="- contractNo: String&lt;br&gt;- contractContent: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-4">
+          <mxGeometry y="26" width="180" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-4">
+          <mxGeometry y="60" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-7" value="+ getContractContent(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-4">
+          <mxGeometry y="68" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-8" value="LoanDetail" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-9" value="- loanId: String&lt;br&gt;- ecifNo: String&lt;br&gt;- acctNo: String&lt;br&gt;- loanStatus: LoanStatusEnum&lt;br&gt;- dueDay: Date&lt;br&gt;- entryDay: Date&lt;br&gt;- loanPrin: BigDecimal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-8">
+          <mxGeometry y="26" width="180" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-8">
+          <mxGeometry y="130" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-11" value="+ getDueDay(): Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-8">
+          <mxGeometry y="138" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-12" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;LoanStatusEnum&lt;br&gt;&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="420" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-13" value="PaidOut&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//已结清&lt;br&gt;UnPaidOut&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //未结清&lt;br&gt;OverDue&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;//逾期" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-12">
+          <mxGeometry y="40" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-12">
+          <mxGeometry y="90" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-15" value="LoanManageService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-15">
+          <mxGeometry y="26" width="370" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-17" value="+ loanRequest(String EcifNo, String AcctNo, LoanDetail dt): void&lt;br&gt;+ updateLoanDetail(String loanId): void&lt;br&gt;+ loanEntryToAccount(BigDecimal amt, String AcctNo): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-15">
+          <mxGeometry y="50" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-18" value="ReportBankService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="436" y="540" width="334" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-18">
+          <mxGeometry y="26" width="334" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-20" value="+ reportLoanInfoToJps(LoanDetail dt): void&lt;br&gt;+ reportContractToCps(Contract contract): void&lt;br&gt;+ reportReceiptToBank(String ecifNo, Receipt receipt): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-18">
+          <mxGeometry y="50" width="334" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-21" value="AvailableAmtService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="38" y="570" width="324" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-21">
+          <mxGeometry y="26" width="324" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="YZRT5G4uCfztNmF1xzOq-23" value="+ updateAvailableAmt(String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YZRT5G4uCfztNmF1xzOq-21">
+          <mxGeometry y="50" width="324" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
