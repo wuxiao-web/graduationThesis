@@ -1,9 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T14:53:41.788Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" version="21.6.5" etag="0rSTjvMWhsnSEtSww3wm" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T14:57:54.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="qf9xGI5uqP8ooFS6LrDg" version="21.6.5" type="github">
   <diagram name="第 1 页" id="TrQ0euMbrIwsAaHACOEl">
-    <mxGraphModel>
+    <mxGraphModel dx="1166" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2fcf1u2JbQWkVX6vZG7G-1" value="个人中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="100" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="2fcf1u2JbQWkVX6vZG7G-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2fcf1u2JbQWkVX6vZG7G-1">
+          <mxGeometry x="45" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2fcf1u2JbQWkVX6vZG7G-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="2fcf1u2JbQWkVX6vZG7G-1">
+          <mxGeometry x="45" y="620" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2fcf1u2JbQWkVX6vZG7G-4" value="展示还款计划" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="2fcf1u2JbQWkVX6vZG7G-1" source="2fcf1u2JbQWkVX6vZG7G-3" target="2fcf1u2JbQWkVX6vZG7G-3">
+          <mxGeometry x="-0.8889" y="10" relative="1" as="geometry">
+            <mxPoint x="60" y="660" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="660" />
+              <mxPoint x="95" y="680" />
+            </Array>
+            <mxPoint x="60" y="680" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
