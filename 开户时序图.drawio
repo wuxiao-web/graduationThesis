@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T03:15:18.126Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="vHrLD00SP24V_MYjHtQ7" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T03:17:28.339Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="PsrTfgh-3qjeNyGSdUnw" version="21.6.5" type="github">
   <diagram name="第 1 页" id="DaRs8Jq92nGOALfAlxOL">
     <mxGraphModel dx="1166" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,10 +25,7 @@
           <mxGeometry x="185" y="40" width="60" height="800" as="geometry" />
         </mxCell>
         <mxCell id="7emKjwWcE962g17NHA5N-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7emKjwWcE962g17NHA5N-5">
-          <mxGeometry x="25" y="230" width="10" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="7emKjwWcE962g17NHA5N-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7emKjwWcE962g17NHA5N-5">
-          <mxGeometry x="25" y="160" width="10" height="60" as="geometry" />
+          <mxGeometry x="25" y="160" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="7emKjwWcE962g17NHA5N-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7emKjwWcE962g17NHA5N-5">
           <mxGeometry x="25" y="580" width="10" height="160" as="geometry" />
@@ -124,9 +121,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7emKjwWcE962g17NHA5N-29" value="渠道检验失败" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="7emKjwWcE962g17NHA5N-30">
+        <mxCell id="7emKjwWcE962g17NHA5N-29" value="渠道检验失败" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="205" y="250" as="sourcePoint" />
+            <mxPoint x="210" y="250" as="sourcePoint" />
             <mxPoint x="90" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
