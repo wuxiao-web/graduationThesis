@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T14:43:42.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="01vI5D78M15t1Whygk-B" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-19T14:45:27.842Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="4iMPktOKKk34U9t3bSu0" version="21.6.8" type="github">
   <diagram name="第 1 页" id="uC3gpUOi-tycmmlxDhRR">
     <mxGraphModel dx="1221" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -145,9 +145,9 @@
         <mxCell id="zAmhP8PBEJzAqp6n99Y0-55" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;风控服务集群&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="528.6800000000001" y="332" width="124.63" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zAmhP8PBEJzAqp6n99Y0-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.487;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zAmhP8PBEJzAqp6n99Y0-55" target="zAmhP8PBEJzAqp6n99Y0-43">
+        <mxCell id="zAmhP8PBEJzAqp6n99Y0-56" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.487;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zAmhP8PBEJzAqp6n99Y0-43">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="320" as="sourcePoint" />
+            <mxPoint x="590" y="330" as="sourcePoint" />
             <mxPoint x="540" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -171,6 +171,9 @@
         </mxCell>
         <mxCell id="zAmhP8PBEJzAqp6n99Y0-62" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;信用等级评估&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="416" y="420" width="96" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="zAmhP8PBEJzAqp6n99Y0-63" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;授信模型监测（贷后）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="542" y="420" width="96" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
