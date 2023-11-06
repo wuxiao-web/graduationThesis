@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T03:44:20.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="21.6.8" etag="7m1gXui8gfd7krDGsuN3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T04:07:15.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uI_viZuAkt27gI7lT19F" version="21.6.8" type="github">
   <diagram name="第 1 页" id="09G4bClJPfwdMOJTZsi3">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aG_79XF7fl9gKxDVAmld-1" value="借款人" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
